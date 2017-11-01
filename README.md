@@ -1,6 +1,6 @@
 # Code
 
-### Behavior Simulator
+### Behavior Simulator (tools/behavior_simulator.py)
 - Parameters can be adjusted in the init-function
 - To generate new behavior, do:
 ```python
@@ -10,7 +10,7 @@
       pickle.dump([bg.data, bg.duration, bg.gt, bg.etype], f)
 ```
 
-### Global Pattern Analysis
+### Global Pattern Analysis (main.py)
 - Parameters can be reviewed and adjusted in the config file (segmentation/config.py)
 - To run GPA, do:
   - load time-series data set as list of lists (each time-series as a separate list)
@@ -25,3 +25,5 @@
 save_path = <path to file> + '.pckl'
 ```
    - with <path to file>: self.cfg.log_path + self.cfg.eval_name (both adjustable in the config)
+  
+  __An example of how to make use of generated data (behavior simulator) for GPA see main.py.__
