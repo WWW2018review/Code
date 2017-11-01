@@ -20,4 +20,8 @@
   ```python
   lbs = GlobalPatternAnalysis(data, duration, gt)
   ```
-  
+- The final model is saved in:
+```python
+save_path = <path to file> + '.pckl'
+```
+   - with <path to file>: self.cfg.log_path + self.cfg.eval_name (both adjustable in the config)
