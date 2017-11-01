@@ -18,7 +18,7 @@
   - additionally, if available, also groundtruth (only to display metrics)
   - call GPA by 
   ```python
-  lbs = GlobalPatternAnalysis(data, duration, gt)
+  gpa = GlobalPatternAnalysis(data, duration, gt)
   ```
 - The final model is saved in:
 ```python
