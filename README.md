@@ -9,6 +9,8 @@
   with open('<where to save the file>', 'wb') as f:
       pickle.dump([bg.data, bg.duration, bg.gt, bg.etype], f)
 ```
+  - n: number of entities
+  - size: approximate elements in the time-series data set
 
 ### Global Pattern Analysis (main.py)
 - Parameters can be reviewed and adjusted in the config file (segmentation/config.py)
