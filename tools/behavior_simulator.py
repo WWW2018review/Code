@@ -88,7 +88,7 @@ class BehaviorGenerator:
 
         # CONFIG: parameters concerning entity creation
         # ratio of bots (bots / humans)
-        self.num_types = 3
+        self.num_types = 2
         self.type_ratios = [.5, .5]  # [.4, .3, .3]
         self.atomic_types = [0, 1]
         self.mixed_types = [2]
